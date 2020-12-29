@@ -38,11 +38,11 @@
         grid-row-gap: 48px;
     }
     
-    .places__place_image {
+    .places__image {
         max-width: 460px;
     }
     
-    .places__place_paragraph {
+    .places__paragraph {
         padding: 0 0 26px 0;
     }
 

@@ -53,11 +53,11 @@
         "place_image place_paragraphs";
     }
 
-    .places__place_image {
+    .places__image {
         max-width: 340px;
     }
 
-    .places__place_title {
+    .places__title {
         font-size: 42px;
         line-height: 1.1;
     }
