@@ -70,7 +70,7 @@
         grid-template-areas:
         "place_title"
         "place_image"
-        "place_paragraphs"
+        "place_paragraphs";
     }
 
     .places__place_title {
