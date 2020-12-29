@@ -1,0 +1,5 @@
+.places__place_title {
+    grid-area: place_title;
+    font-size: 72px;
+    line-height: 1.06;
+}

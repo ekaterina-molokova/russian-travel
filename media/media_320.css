@@ -1,0 +1,153 @@
+@media screen and (max-width: 425px) {
+    
+    .header {
+        padding: 16px 18px 0 16px;
+    }
+
+    .logo {
+        min-width: 142px;
+    }
+
+    .lead {
+        padding: 48px 0 0 0;
+    }
+
+    .lead__title {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .lead__subtitle {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .lead__image {
+        padding: 40px 0 0 0;
+    }
+
+    .caption {
+        padding: 8px 0 0 16px;
+    }
+
+    .intro {
+        padding: 64px 18px 0 16px;
+        max-width: 100%;
+    }
+
+    .title {
+        padding: 0;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+
+    .intro__list {
+        padding-top: 34px;
+    }
+    
+    .photo-grid {
+        padding: 64px 18px 0 16px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
+    }
+
+    .places {
+        padding: 64px 0 0 0;
+        gap: 49px;
+    }
+    
+    .places__place {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(min-content, max-content));
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
+        grid-column-gap: 0;
+        grid-row-gap: 32px;
+        grid-template-areas:
+        "place_title"
+        "place_image"
+        "place_paragraphs"
+    }
+
+    .places__place_title {
+        grid-area: place_title;
+        font-size: 32px;
+        line-height: 1.09;
+        padding: 0 18px 0 16px;
+    }
+    
+
+    .places__place_website {
+        display: none;
+    }
+    
+    .places__place_image {
+        grid-area: place_image;
+        max-width: 100%;
+    }
+
+    .places_place_paragraphs {
+        grid-area: place_paragraphs;
+    }
+
+    .places__place_paragraph {
+        font-size: 16px;
+        line-height: 1.63;
+        padding: 0 18px 25px 16px;
+    }
+
+    .cover {
+        padding-top: 66px;
+    }
+    
+    .cover__title {
+        padding-top: 33px;
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+
+    .subtitle {
+        padding: 16px 0 33px 0;
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+    
+    .cover__background {
+        padding-top: 66px;
+    }
+    
+    .cover__overlay {
+        padding-top: 66px;
+    }
+
+    .footer {
+        margin: 0;
+        padding: 64px 18px 24px 16px;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+        min-height: 310px;
+    }
+    
+    .footer__links {
+        flex-direction: column;
+    }
+    
+    .footer__link {
+        padding: 0 0 32px 0;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .copyright {
+        line-height: 1;
+        text-align: left;
+    }
+}

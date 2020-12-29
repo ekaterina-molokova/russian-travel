@@ -1,0 +1,12 @@
+.places__place_image {
+    grid-area: place_image;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: contain;
+    max-width: 440px;
+}
+
+.places__place_image:hover {
+    opacity: 0.3;
+}

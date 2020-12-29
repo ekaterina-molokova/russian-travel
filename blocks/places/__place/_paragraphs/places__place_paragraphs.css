@@ -1,0 +1,6 @@
+.places__place_paragraphs {
+        grid-area: place_paragraphs;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
