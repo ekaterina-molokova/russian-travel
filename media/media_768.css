@@ -7,15 +7,6 @@
     .lead {
         padding: 48px 0 0 0;
     }
-    
-    .lead__title {
-        padding: 0 24px 0 24px;
-    }
-
-    .lead__subtitle {
-        padding-right: 64px;
-        padding-left: 64px;
-    }
 
     .lead__image {
         padding: 56px 0 0 0;

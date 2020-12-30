@@ -13,25 +13,25 @@
     }
 
     .lead__title {
-        padding-left: 16px;
-        padding-right: 16px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 1.1;
     }
 
     .lead__subtitle {
-        padding-left: 16px;
-        padding-right: 16px;
+        max-width: 288px;
         font-size: 16px;
         line-height: 1.25;
     }
 
     .lead__image {
         padding: 40px 0 0 0;
+        width: 100%;
+        object-fit: cover;
     }
 
     .caption {
-        padding: 8px 0 0 16px;
+        padding-left: 16px;
     }
 
     .intro {
@@ -43,6 +43,7 @@
         padding: 0;
         font-size: 32px;
         line-height: 1.09;
+        max-width: 250px;
     }
 
     .intro__list {
@@ -79,7 +80,6 @@
         line-height: 1.09;
         padding: 0 18px 0 16px;
     }
-    
 
     .places__website {
         display: none;
@@ -106,14 +106,14 @@
     
     .cover__title {
         padding-top: 33px;
-        max-width: 288px;
+        max-width: 250px;
         font-size: 32px;
         line-height: 1.09;
     }
 
     .subtitle {
         padding: 16px 0 33px 0;
-        max-width: 288px;
+        max-width: 260px;
         font-size: 14px;
         line-height: 1.14;
     }
@@ -135,13 +135,16 @@
         flex-direction: column;
         min-height: 310px;
     }
-    
+
     .footer__links {
         flex-direction: column;
     }
-    
-    .footer__link {
+
+    .footer__links li {
         padding: 0 0 32px 0;
+    }
+
+    .footer__link {
         font-size: 24px;
         line-height: 1;
     }
