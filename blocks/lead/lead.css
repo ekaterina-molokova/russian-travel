@@ -3,13 +3,12 @@
     padding: 48px 48px 0 48px;
     box-sizing: border-box;
     justify-content: center;
-    width: calc(100% - 96px);
+    width: 100%;
 }
 
 @media screen and (min-width: 1025px) {
     .lead {
         padding: 56px 148px 0 148px;
-        width: calc(100% - 296px);
     }
 }
 
@@ -17,7 +16,6 @@
     .lead {
         padding-right: 0;
         padding-left: 0;
-        width: 100%;
     }
 }
 
@@ -25,6 +23,5 @@
     .lead {
         padding-right: 0;
         padding-left: 0;
-        width: 100%;
     }
 }

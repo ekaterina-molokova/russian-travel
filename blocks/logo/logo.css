@@ -2,23 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: calc((100% - 96px) - 80%);
+    width: 20%;
 }
 
 @media screen and (min-width: 1025px) {
     .logo {
-        width: calc((100% - 96px) - 85%);
+        width: 15%;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .logo {
-        width: calc((100% - 48px) - 75%);
+        width: 25%;
     }
 }
 
 @media screen and (max-width: 425px) {
     .logo {
-        width: calc((100% - 32px) - 50%);
+        width: 50%;
     }
 }
