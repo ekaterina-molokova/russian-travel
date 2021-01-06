@@ -6,4 +6,37 @@
     grid-template-columns: repeat(1, minmax(min-content, max-content));
     grid-template-rows: repeat(5, minmax(min-content, max-content));
     gap: 80px;
+    width: calc(100%-96px);
+}
+
+@media screen and (min-width: 1025px) {
+    .places {
+        width: calc(100%-296px);
+        padding-right: 148px;
+        padding-left: 148px;
+    }
+}
+
+@media screen and (min-width: 675px) and (max-width: 768px) {
+    .places {
+        width: calc(100%-48px);
+        padding: 64px 24px 0 24px;
+        gap: 49px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 674px) {
+    .places {
+        width: calc(100%-32px);
+        padding: 64px 16px 0 16px;
+        gap: 49px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        width: 100%;
+        padding: 64px 0 0 0;
+        gap: 49px;
+    }
 }

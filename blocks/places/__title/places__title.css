@@ -2,4 +2,35 @@
     grid-area: place_title;
     font-size: 72px;
     line-height: 1.06;
+    max-width: 440px;
+}
+@media screen and (min-width: 1025px) {
+    .places__title {
+        max-width: 460px;
+    }
+}
+
+@media screen and (min-width: 675px) and (max-width: 768px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 1.1;
+        max-width: 330px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 674px) {
+    .places__title {
+        font-size: 37px;
+        line-height: 1.09;
+        max-width: 325px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__title {
+        font-size: 32px;
+        line-height: 1.09;
+        padding: 0 16px 0 16px;
+        max-width: 320px;
+    }
 }

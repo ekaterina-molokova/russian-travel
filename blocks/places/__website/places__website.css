@@ -7,3 +7,9 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 674px) {
+    .places__website {
+        display: none;
+    }
+}

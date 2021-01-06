@@ -4,3 +4,24 @@
     box-sizing: border-box;
     max-width: 750px;
 }
+
+@media screen and (min-width: 1025px) {
+    .intro {
+        padding-left: 148px;
+        max-width: 850px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .intro {
+        padding: 88px 24px 0 24px;
+        max-width: 760px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding: 64px 18px 0 16px;
+        max-width: 100%;
+    }
+}

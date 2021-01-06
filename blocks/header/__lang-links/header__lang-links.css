@@ -1,5 +1,18 @@
 .header__lang-links {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
-    width: 30%;
     justify-content: flex-end;
+    list-style: none;
+}
+
+.header__lang-links li {
+    margin: 0;
+    padding: 18px 18px 6px 0;
+    box-sizing: border-box;
+}
+
+.header__lang-links li:last-child {
+    padding-right: 0;
 }

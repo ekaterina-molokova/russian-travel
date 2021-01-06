@@ -11,3 +11,23 @@
 .places__paragraph:last-child {
     padding-bottom: 0;
 }
+
+@media screen and (min-width: 1025px) {
+    .places__paragraph {
+        padding-top: 26px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .places__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__paragraph {
+        font-size: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}

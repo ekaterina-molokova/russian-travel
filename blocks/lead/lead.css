@@ -3,4 +3,28 @@
     padding: 48px 48px 0 48px;
     box-sizing: border-box;
     justify-content: center;
+    width: calc(100%-96px);
+}
+
+@media screen and (min-width: 1025px) {
+    .lead {
+        padding: 56px 148px 0 148px;
+        width: calc(100%-296px);
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .lead {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
 }
