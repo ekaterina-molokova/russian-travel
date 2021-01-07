@@ -9,11 +9,8 @@
 
 @media screen and (min-width: 1280px) {
     .footer {
-        min-width: 1184px;
         max-width: 1280px;
         margin: 0 auto;
-        padding-right: 0;
-        padding-left: 0;
     }
 }
 
