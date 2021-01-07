@@ -1,4 +1,7 @@
 .places__url {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     color: #aaaaaa;
     font-size: 12px;
     font-style: normal;
