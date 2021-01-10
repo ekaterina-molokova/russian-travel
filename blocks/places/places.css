@@ -1,6 +1,6 @@
 .places {
     margin: 0;
-    padding: 92px 48px 0 48px;
+    padding: 92px 148px 0 148px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(1, minmax(min-content, max-content));
@@ -9,30 +9,35 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1024px) {
     .places {
-        padding-right: 148px;
-        padding-left: 148px;
+        padding-right: 48px;
+        padding-left: 48px;
     }
 }
 
-@media screen and (min-width: 675px) and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .places {
-        padding: 64px 24px 0 24px;
-        gap: 49px;
+        padding-top: 88px;
+        padding-right: 24px;
+        padding-left: 24px;
+        gap: 73px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 674px) {
+@media screen and (max-width: 674px) {
     .places {
-        padding: 64px 16px 0 16px;
-        gap: 49px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .places {
-        padding: 64px 0 0 0;
-        gap: 49px;
+        padding-top: 64px;
+        padding-right: 0;
+        padding-left: 0;
+        gap: 50px;
     }
 }

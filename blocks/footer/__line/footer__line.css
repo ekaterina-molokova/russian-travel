@@ -1,0 +1,12 @@
+.footer__line {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__line {
+        padding-bottom: 32px;
+    }
+}

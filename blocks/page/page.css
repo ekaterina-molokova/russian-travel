@@ -4,10 +4,9 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  min-width: 320px;
-  overflow: hidden;
   font-family: "Inter", sans-serif;
   color: #FFFFFF;
+  min-width: 320px;
   background-color: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

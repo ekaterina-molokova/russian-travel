@@ -9,5 +9,5 @@
 
 .places__place_link:hover {
     opacity: 0.3;
-    transition: opacity 3s ease;
+    transition: opacity 2s ease;
 }
