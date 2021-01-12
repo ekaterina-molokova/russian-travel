@@ -6,12 +6,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 46px;
 }
 
 @media screen and (max-width: 674px) {
     .places__website {
-        max-width: 325px;
         justify-content: space-between;
     }
 }
@@ -19,6 +17,5 @@
 @media screen and (max-width: 425px) {
     .places__website {
         padding: 0 16px 0 16px;
-        max-width: 320px;
     }
 }
