@@ -1,7 +1,7 @@
 # Traveling in Russia
 https://ekaterina-molokova.github.io/russian-travel/
 
-##Description of the project
+## Description of the project
 Onepage site describing places of interest in Russia. Includes 7 blocks:
 
 1) header with logo and language menu;
@@ -12,10 +12,10 @@ Onepage site describing places of interest in Russia. Includes 7 blocks:
 6) cover with photo;
 7) footer with links to Yandex services useful for travelers. From the site, active links lead to pages of places (for example, nature reserves) and events in Russia (for example, about traveling from Moscow to Lake Baikal by train), as well as authors writing on the topic of traveling in Russia.
 
-##Technologies used
+## Technologies used
 The site is typeset by BEM (Block Element Modifier). The file structure was created using the Nested technology. The sections were marked up using flex, grid, and media queries to make the site responsive.
 
-##Instructions for using the project and system requirements
+## Instructions for using the project and system requirements
 The site is marked up in HTML and CSS. To display all items correctly, modern browsers are required that support flex and grid. Design work was tested in three browsers: Firefox (84.0), Google Chrome (Version 87.0.4280.88), Yandex Browser (20.12.0.1065).
 
 # Путешествие по России
